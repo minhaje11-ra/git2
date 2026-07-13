@@ -1,3 +1,39 @@
-body{
-    background-color:orange;
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:white;
+}
+.common-btn{
+    background-colour:blue;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    colour:blue ; 
+    border: none;
+    button:hover{
+        background-color:blue;
+        color:white;
+    }
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+    list-style:none;
+    gap:20px;
+    align-items:center;  
+}
+ul li a{
+    text-decoration:none;
+    
 }
